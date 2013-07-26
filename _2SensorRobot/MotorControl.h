@@ -46,4 +46,8 @@ class Motor {
   void back(byte speed=255) {
     move(BACK, speed);
   }
+  
+  void stop() {
+    move(STOP, 0);
+  }
 };
